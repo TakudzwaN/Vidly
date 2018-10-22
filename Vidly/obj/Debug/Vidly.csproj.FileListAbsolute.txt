@@ -123,3 +123,5 @@ C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResour
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.CustomerFieldsMembershipTypes.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMembershipTypes.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.CustomerClassAnnotations.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.MembershipTypeName.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMembershipTypeNames.resources

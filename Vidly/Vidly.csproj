@@ -218,6 +218,14 @@
     <Compile Include="Migrations\201810221951146_CustomerClassAnnotations.Designer.cs">
       <DependentUpon>201810221951146_CustomerClassAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810222040393_MembershipTypeName.cs" />
+    <Compile Include="Migrations\201810222040393_MembershipTypeName.Designer.cs">
+      <DependentUpon>201810222040393_MembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810222043279_SeedMembershipTypeNames.cs" />
+    <Compile Include="Migrations\201810222043279_SeedMembershipTypeNames.Designer.cs">
+      <DependentUpon>201810222043279_SeedMembershipTypeNames.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -292,6 +300,7 @@
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -321,6 +330,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810221951146_CustomerClassAnnotations.resx">
       <DependentUpon>201810221951146_CustomerClassAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810222040393_MembershipTypeName.resx">
+      <DependentUpon>201810222040393_MembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810222043279_SeedMembershipTypeNames.resx">
+      <DependentUpon>201810222043279_SeedMembershipTypeNames.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
