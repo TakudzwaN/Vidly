@@ -122,3 +122,4 @@ C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.Initial.re
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.CustomerFieldsMembershipTypes.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMembershipTypes.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.CustomerClassAnnotations.resources
