@@ -128,3 +128,5 @@ C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMember
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthDatePropertyToCustomers.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthDatePropertyToCustomers1.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.BirthDateToBirthdate.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMoviePropertiesMovieClass.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMovies.resources
