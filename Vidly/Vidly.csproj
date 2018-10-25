@@ -246,6 +246,10 @@
     <Compile Include="Migrations\201810231915250_SeedMovies.Designer.cs">
       <DependentUpon>201810231915250_SeedMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810252011570_AddMembershiptypesDbSet.cs" />
+    <Compile Include="Migrations\201810252011570_AddMembershiptypesDbSet.Designer.cs">
+      <DependentUpon>201810252011570_AddMembershiptypesDbSet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -256,7 +260,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModels\RandomMovieViewModel.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-lumen.css" />
@@ -324,6 +328,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -374,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810231915250_SeedMovies.resx">
       <DependentUpon>201810231915250_SeedMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810252011570_AddMembershiptypesDbSet.resx">
+      <DependentUpon>201810252011570_AddMembershiptypesDbSet.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
