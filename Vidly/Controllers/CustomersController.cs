@@ -30,7 +30,7 @@ namespace Vidly.Controllers
             {
                 MembershipTypes = membershipTypes
             };
-            return View("CustomerForm", viewModel);
+            return View("New", viewModel);
         }
 
         [HttpPost]
@@ -43,7 +43,7 @@ namespace Vidly.Controllers
                     Customer = customer,
                     MembershipTypes = _context.MembershipTypes.ToList()
                 };
-                return View("CustomerForm", viewModel);
+                return View("New", viewModel);
             }
 
             if (customer.Id == 0)                       //Checks if movie has Id in DB if not Create new movie
@@ -97,7 +97,7 @@ namespace Vidly.Controllers
                 Customer = customer,
                 MembershipTypes = _context.MembershipTypes.ToList()
             };
-            return View("CustomerForm", viewModel);              //Return New Customer Form Using CustomerFormViewModel 
+            return View("New", viewModel);              //Return New Customer Form Using CustomerFormViewModel 
         }
     }
 }

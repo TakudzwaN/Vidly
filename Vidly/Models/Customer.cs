@@ -17,6 +17,7 @@ namespace Vidly.Models
         public bool IsSubscribed { get; set; }
 
         [Display(Name = "Date of Birth")]
+        [MinMemberAge]
         public DateTime? Birthdate { get; set; }   
         
         //Navigation Properties
