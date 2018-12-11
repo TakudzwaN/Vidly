@@ -34,6 +34,7 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
             if (!ModelState.IsValid)                      //Validation
@@ -89,7 +90,7 @@ namespace Vidly.Controllers
             var customer = _context.Customers
                 .SingleOrDefault(c => c.Id == id);      //Edit customer by id
 
-            if (customer == null)                       //If customer doesnt exist
+            if (customer == null)                       //If customer doesn't exist
                 return HttpNotFound();
 
             var viewModel = new CustomerFormViewModel

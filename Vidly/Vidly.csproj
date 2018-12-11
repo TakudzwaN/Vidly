@@ -250,6 +250,10 @@
     <Compile Include="Migrations\201810252011570_AddMembershiptypesDbSet.Designer.cs">
       <DependentUpon>201810252011570_AddMembershiptypesDbSet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812111652534_DataAnnotationsToMoieModel.cs" />
+    <Compile Include="Migrations\201812111652534_DataAnnotationsToMoieModel.Designer.cs">
+      <DependentUpon>201812111652534_DataAnnotationsToMoieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -386,6 +390,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810252011570_AddMembershiptypesDbSet.resx">
       <DependentUpon>201810252011570_AddMembershiptypesDbSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812111652534_DataAnnotationsToMoieModel.resx">
+      <DependentUpon>201812111652534_DataAnnotationsToMoieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

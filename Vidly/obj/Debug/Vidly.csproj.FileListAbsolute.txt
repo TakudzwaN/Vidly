@@ -131,3 +131,4 @@ C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.BirthDateT
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMoviePropertiesMovieClass.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedMovies.resources
 C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershiptypesDbSet.resources
+C:\Users\Taku\Documents\GitHub\Vidly\Vidly\obj\Debug\Vidly.Migrations.DataAnnotationsToMoieModel.resources
